@@ -1,0 +1,29 @@
+# secrets
+.env
+.env.*
+
+# environments and installed packages
+.venv/
+venv/
+node_modules/
+__pycache__/
+.ipynb_checkpoints/
+
+# data, databases and trained models (kept locally, not in git)
+*.db
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.keras
+*.h5
+*.pkl
+*.npy
+!database/mapping/overrides.csv
+database/output/
+database/exports/
+database/mapping/reference/
+frontend/docs/
+
+# editor
+.vscode/
